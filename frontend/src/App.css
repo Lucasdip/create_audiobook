@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: linear-gradient(to bottom right, #f5f7fa, #e4ebf1);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.card h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input[type="file"] {
+  margin: 10px 0 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+}
+
+button {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #005fcc;
+}
+
+button:disabled {
+  background-color: #aac7ec;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+audio {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.result a {
+  text-decoration: none;
+  color: #007aff;
+  font-weight: bold;
+}
+
+.result a:hover {
+  text-decoration: underline;
+}
